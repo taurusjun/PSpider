@@ -1,0 +1,7 @@
+#./manage.py makemigrations <myapp>
+#这个命令适用于没有migrations文件夹的场景
+#先修改setting.pyz中，INSTALLED_APPS里面DBOps.db为db
+./manage.py makemigrations db
+./manage.py migrate
+
+

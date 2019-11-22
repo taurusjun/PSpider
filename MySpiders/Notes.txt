@@ -1,0 +1,5 @@
+1. redis命令列表
+启动:redis-server
+进入命令行: redis-cli
+https://redis.readthedocs.io/en/2.6/index.html
+
